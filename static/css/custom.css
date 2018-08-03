@@ -1,9 +1,3 @@
-.button.outline:hover {
-    border-color: #30f2a2;
-    color: #14cc80;
-    -moz-transition: all linear 0.2s;
-}
-
 html, body {
     height: 100%;
 }
@@ -21,6 +15,12 @@ body {
     flex-shrink: 0;
 }
 
+.button.outline:hover {
+    border-color: #30f2a2;
+    color: #14cc80;
+    -moz-transition: all linear 0.2s;
+}
+
 #top-brand a{
     color: #000;
     text-decoration: none;
@@ -36,7 +36,18 @@ body {
 }
 
 #hero p::before {
-    background: #30f2a2 !important;
+    z-index: -1;
+    background: #30f2a2;
+}
+
+#posts h2 a{
+    color: black;
+}
+
+#posts h2 a:hover {
+    text-decoration: none !important;
+    color: #30f2a2;
+    -moz-transition: all linear 0.2s;
 }
 
 .linkedin:hover {
@@ -50,4 +61,27 @@ body {
 .mylink {
   font-size: 20px;
   color: #000;
+}
+
+#top {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+#top.scrolled {
+    background-color: #000;
+    transition: background-color 300ms ease-out;
+}
+
+#top #top-nav-main a.scrolled{
+    color: white;
+}
+
+#top #top-nav-main.scrolled {
+    border-left: 1px solid #30f2a2;
+}
+
+#top #top-brand a.scrolled {
+    color: white;
 }

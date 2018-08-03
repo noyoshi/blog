@@ -1,9 +1,14 @@
 <li itemscope itemtype="http://schema.org/CreativeWork">
     <h2 class="title">
-        <a href="{{ .Permalink }}" itemprop="headline">{{ .Title }}</a>
+      <a href="{{ .Permalink }}" itemprop="headline">
+        {{ if .Params.Fa }}
+        <i class={{ .Params.fa }} id="post-icon"></i>
+        {{ end }}
+        {{ .Title }}
+      </a>
     </h2>
     <hr>
     {{ if .Description }}
-    <p itemprop="about">{{ .Description }}</p>
+    <p itemprop="about"><i>{{ .Description }}</i></p>
     {{ end }}
 </li>
