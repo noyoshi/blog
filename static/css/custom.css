@@ -1,0 +1,53 @@
+.button.outline:hover {
+    border-color: #30f2a2;
+    color: #14cc80;
+    -moz-transition: all linear 0.2s;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+#top-brand a{
+    color: #000;
+    text-decoration: none;
+}
+
+#top-brand a:hover {
+    color: #30f2a2;
+    -moz-transition: all linear 0.2s;
+}
+
+#top-nav-main a:hover {
+    color: #30f2a2 !important;
+}
+
+#hero p::before {
+    background: #30f2a2 !important;
+}
+
+.linkedin:hover {
+    color: #0077b5 !important;
+}
+
+.github:hover {
+    color: #000 !important;
+}
+
+.mylink {
+  font-size: 20px;
+  color: #000;
+}

@@ -1,0 +1,16 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+
+{{ define "main" }}
+
+<div id="hero" class="wrap">
+  <h1>About Me</h1>
+  <p><i>"Who are you silv3r?"</i><br></p>
+</div>
+<div id="kube-faq">
+{{.Content}}
+</div>
+{{ end }} 
+{{ define "footer" }} 
+  {{ partial "footer" . }} 
+{{ end }}

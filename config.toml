@@ -1,0 +1,24 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "silv3r.me"
+theme = "kube"
+description = "a small blog about making Linux fun to use"
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "silver" # add your company name
+  github = "noyoshi" # add your github profile name
+  email = "nyoshida@nd.edu"
+
+[[menu.main]]
+    name = "Resources"
+    weight = -200
+    url = "/docs/"
+[[menu.main]]
+    name = "Tech Blog"
+    weight = -300
+    url = "/blog/"
+[[menu.main]]
+    name = "About Me"
+    weight = -100
+    url = "/faq/"
