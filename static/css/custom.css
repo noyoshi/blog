@@ -19,6 +19,7 @@ body {
     border-color: #30f2a2;
     color: #14cc80;
     -moz-transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
 }
 
 #top-brand a{
@@ -29,6 +30,7 @@ body {
 #top-brand a:hover {
     color: #30f2a2;
     -moz-transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
 }
 
 #top-nav-main a:hover {
@@ -48,6 +50,7 @@ body {
     text-decoration: none !important;
     color: #30f2a2;
     -moz-transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
 }
 
 .linkedin:hover {
