@@ -28,8 +28,11 @@ over (but who knows, maybe I will try to make a comeback?).
 
 I am currently looking for a part time (20 hr/week) internship in Silicon Valley
 for the Spring, and a full time internship there for next Summer. Feel free to
-reach out to me via email or LinkedIn if you would like! LinkedIn can be found
-on the main page, and my email is: nyoshida@nd.edu. 
+reach out to me via email or LinkedIn if you would like!
+
+- LinkedIn: [noah-yoshida](https://linkedin.com/in/noah-yoshida)
+- GitHub: [noyoshi](https://github.com/noyoshi)
+
 
 Thanks for reading!
 
