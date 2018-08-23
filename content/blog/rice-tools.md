@@ -7,10 +7,8 @@ draft: false
 fa: "fas fa-paint-brush"
 ---
 
-Howdy! This will be a post outlining some of the various tools people use
-to rice their Linux computers. This list is by no means exhaustive and I will be
-creating posts specifically about each things, so keep your eyes peeled for
-those.
+Howdy! This will be a post outlining some of the available tools for ricing Linux distros. This list is by no means exhaustive and I will 
+create posts about each item, so check for those as well!
 
 ### TLDR:  
 > In case you are in a hurry
