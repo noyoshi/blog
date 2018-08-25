@@ -62,30 +62,42 @@ body {
 }
 
 .mylink {
-  font-size: 20px;
-  color: #000;
+    font-size: 20px;
+    color: #000;
 }
 
-#top {
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    background-color: #fff;
-}
+@media only screen and (min-width: 600px) {
+    /* Top navbar custom scrolling functionality only on web */
+    #top {
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        background-color: #fff;
+        transition: background-color 300ms ease-out;
+    }
 
-#top.scrolled {
-    background-color: #000;
-    transition: background-color 300ms ease-out;
-}
+    #top.scrolled {
+        background-color: #000;
+        transition: background-color 300ms ease-out;
+    }
 
-#top #top-nav-main a.scrolled{
-    color: white;
-}
+    #top #top-nav-main a{
+        transition: background-color 300ms ease-out;
+    }
 
-#top #top-nav-main.scrolled {
-    border-left: 1px solid #30f2a2;
-}
+    #top #top-nav-main a.scrolled{
+        color: white;
+    }
 
-#top #top-brand a.scrolled {
-    color: white;
+    #top #top-nav-main{
+        transition: background-color 300ms ease-out;
+    }
+
+    #top #top-nav-main.scrolled {
+        border-left: 1px solid #30f2a2;
+    }
+
+    #top #top-brand a.scrolled {
+        color: white;
+    }
 }
