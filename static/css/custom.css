@@ -53,6 +53,12 @@ body {
     -webkit-transition: all linear 0.2s;
 }
 
+.list-line {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
 .linkedin:hover {
     color: #0077b5 !important;
 }
